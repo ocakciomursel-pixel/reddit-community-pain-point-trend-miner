@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-reddit-community-pain-point-trend-miner": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/reddit-community-pain-point-trend-miner"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
