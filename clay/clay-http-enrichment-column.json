@@ -1,0 +1,21 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "Reddit Subreddit, Buyer Intent & Pain-Point Lead Miner",
+  "actorStoreUrl": "https://apify.com/lucacelli/reddit-community-pain-point-trend-miner",
+  "costComparison": "$0.0005 per post ($0.50/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~reddit-community-pain-point-trend-miner/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "subreddits": [
+        "saas",
+        "entrepreneur",
+        "seo"
+      ],
+      "intentFilter": "buyer-intent"
+    }
+  }
+}
