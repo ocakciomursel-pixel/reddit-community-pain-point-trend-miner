@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/reddit-community-pain-point-trend-miner",
+  "version": "2.1.0",
+  "description": "Mine Reddit subreddits for high-intent buyer posts (\"looking for a tool\", \"alternative to\", \"how to automate\"), software complaints, and emerging SaaS product opportunities.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/reddit-community-pain-point-trend-miner",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
